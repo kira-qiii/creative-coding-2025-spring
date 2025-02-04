@@ -1,0 +1,128 @@
+  nav {
+        position: fixed; 
+        display: flex;
+        top: 0;
+        left: 0;
+        right: 0;
+        justify-content: space-between;
+        background-color: hsla(0, 0%, 100%, 0.7); 
+        padding: 10px 10px;
+        margin: 0px;
+        z-index: 1000;
+        }
+
+  .div1, .div2, .div3 {
+    padding-left: 10px; padding-right: 10px;
+    font-family: "poppins"; font-size: small;
+    }
+
+  .div2 {
+    text-align: center;
+    }
+
+  body {
+    padding-top: 10px;
+    }
+  
+  .cover {
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cover .text1 {
+    position: absolute;  
+    Top: 0;
+    left:50px;
+    color: white;
+    font-size: 112px;
+    font-family: "poppins";
+    z-index: 10; 
+}
+
+.cover .text2 {
+    position: absolute;  
+    bottom: 0;
+    right:10px;
+    color: white;
+    font-size: 112px;
+    font-family: "poppins";
+    z-index: 10; 
+}
+
+h2 {
+  font-family:Noto Serif Display; font-size: 56px; font-style: italic; font-weight: lighter;
+  padding: 15px 50px; padding-top: 50px; margin:0;
+}
+
+p {
+  font-family: "poppins"; font-size: small;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px; 
+    padding: 0px 50px;
+    font-family: "poppins"; font-size: small;
+}
+
+.container img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 25px; 
+    padding: 0 50px;
+    font-family: "poppins"; font-size: small;
+}
+
+.container2 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 0 50px;
+    font-family: "poppins"; font-size: small;
+}
+
+.container3 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+}
+
+.video-container {
+padding-top: 15px;
+        }
+
+        video {
+            width: 100%; 
+            height: auto;
+            display: block;
+        }
+
+sans {
+  font-family: "Noto Serif Display";
+  font-style: italic;
+}
+
+ss {
+  font-family: "poppins";
+}
