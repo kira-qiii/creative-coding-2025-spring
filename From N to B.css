@@ -25,11 +25,11 @@
     }
 
  .sectionN {
-      cursor: url('tulip.cur'), default !important;
+      cursor: url('tulip.cur'), auto;
   }
 
   .sectionB {
-    cursor: url('paella.cur'), default !important;
+    cursor: url('paella.cur'), auto;
  }
 
   .cover {
