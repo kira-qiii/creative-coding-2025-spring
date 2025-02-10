@@ -20,7 +20,7 @@
     text-align: center;
     }
 
-  body {
+  body { cursor: url('tulip.cur'), auto;
     padding-top: 10px;
     }
 
