@@ -3,7 +3,7 @@ let img;
 
 function preload() {
 
-    img = loadImage("./NBimages/01.JPG")
+    img = loadImage("01.JPG")
 
   }
 
@@ -23,12 +23,12 @@ function setup() {
     if(mouseX<windowWidth*mouseY/windowHeight)
       {
         background(255,102,0);
-        cursor ("./NBimages/paella.cur");
+        cursor ("/paella.cur");
 
       } else if(mouseX>windowWidth*mouseY/windowHeight)
         { 
           background(0,102,255);
-          cursor ("./NBimages/tulip.cur");
+          cursor ("tulip.cur");
 
         }
         
