@@ -30,10 +30,10 @@ function draw(){
     if(mouseIsPressed)
         { i = 10;
         fill(0+j,102,255-j);
-        cursor ("./NBimages/paella.cur");
+        cursor ("paella.cur");
     } else {
         i+=10;
-        cursor ("./NBimages/tulip.cur");
+        cursor ("tulip.cur");
     }
 
     circle (mouseX, mouseY,i);
