@@ -23,7 +23,7 @@ function setup() {
     if(mouseX<windowWidth*mouseY/windowHeight)
       {
         background(255,102,0);
-        cursor ("/paella.cur");
+        cursor ("paella.cur");
 
       } else if(mouseX>windowWidth*mouseY/windowHeight)
         { 
