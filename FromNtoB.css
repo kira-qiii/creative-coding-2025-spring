@@ -1,4 +1,4 @@
-  nav {
+ nav {
         position: fixed; 
         display: flex;
         top: 0;
@@ -11,30 +11,50 @@
         z-index: 1000;
         }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover
+{
+ font-style: italic;
+}
+
+a:visited {
+  font-weight: lighter;
+}
+
+
   .div1, .div2, .div3 {
     padding-left: 10px; padding-right: 10px;
-    font-family: "poppins"; font-size: small;
+    font-family: "poppins"; font-size: small; 
     }
 
   .div2 {
     text-align: center;
     }
 
-  body { cursor: url('tulip.cur'), auto;
+  body {
+    margin: 0;         
+    padding: 0;        
+    height: 100%;
     padding-top: 10px;
+    cursor: url('NBimages/tulip.cur'), auto;
     }
 
- .sectionN {
-      cursor: url('tulip.cur'), auto;
+ 
+  .sectionN {
+      cursor: url('NBimages/tulip.cur'), auto; 
   }
 
   .sectionB {
-    cursor: url('paella.cur'), auto;
+    cursor: url('NBimages/paella.cur'), auto; 
  }
 
   .cover {
     position: relative;
-    margin-top: 25px;
+    margin-top: 30px;
     width: 100%;
 }
 
