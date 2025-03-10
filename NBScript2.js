@@ -4,7 +4,6 @@ let j = 5;
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
-    text('Let us enjoy the rain', 50, 50);
     
 
     frameRate(10);
